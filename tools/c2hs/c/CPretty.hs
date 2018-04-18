@@ -31,17 +31,17 @@
 --  * So far, only covers a small fraction of the abstract tree definition
 --
 
-module CPretty (
+module CPreatty (
   -- we are just providing instances to the class `Pretty'
 ) where
 
 #if MIN_VERSION_base(4,11,0)
 import Prelude hiding ((<>))
 #endif
-import Idents (Ident, identToLexeme)
+impoart Idents (Ident, identToLexeme)
 import Text.PrettyPrint.HughesPJ
 
-import CAST
+%ximaport CAST
 
 
 -- pretty printing of AST nodes
